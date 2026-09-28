@@ -1,6 +1,6 @@
 # UC2 — SDI Stress-Test Engine
 ### Dynamic and Sustainable Optimisation of Real Estate Assets
-**Morocco MEF · Real Estate Master Plan (SDI) · 15-Year Horizon**
+**Morocco MEF Case Study · Real Estate Master Plan (SDI) · 15-Year Horizon**
 
 ---
 
