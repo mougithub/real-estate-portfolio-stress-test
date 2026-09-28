@@ -1,0 +1,41 @@
+{
+  "ministry_hq": {
+    "order": [
+      1,
+      0,
+      0
+    ],
+    "aic": -77.22,
+    "bic": -74.39,
+    "mae": 0.0553,
+    "rmse": 0.1803,
+    "hist_mean": 0.8039,
+    "hist_std": 0.0311
+  },
+  "regional_office": {
+    "order": [
+      0,
+      1,
+      0
+    ],
+    "aic": -69.7,
+    "bic": -67.92,
+    "mae": 0.0455,
+    "rmse": 0.1489,
+    "hist_mean": 0.6399,
+    "hist_std": 0.0374
+  },
+  "annex": {
+    "order": [
+      0,
+      1,
+      0
+    ],
+    "aic": -68.43,
+    "bic": -66.65,
+    "mae": 0.0389,
+    "rmse": 0.118,
+    "hist_mean": 0.473,
+    "hist_std": 0.0477
+  }
+}

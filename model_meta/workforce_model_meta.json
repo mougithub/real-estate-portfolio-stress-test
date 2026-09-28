@@ -1,0 +1,97 @@
+{
+  "Rabat-Sal\u00e9-K\u00e9nitra": {
+    "hc_2005": 4406,
+    "hc_2024": 4194,
+    "hc_2039_mean": 3854,
+    "pct_change": -8.11,
+    "retirement_rate": 0.038,
+    "hiring_ratio": 0.92,
+    "decent_boost": 0.0,
+    "regression": {
+      "mae": 10.71,
+      "r2": 0.9675,
+      "cv_r2": -0.7975,
+      "coefficients": {
+        "cohort_hc": 8.2367,
+        "budget_index": 47.4627,
+        "year_trend": -112.555
+      }
+    }
+  },
+  "Casablanca-Settat": {
+    "hc_2005": 3259,
+    "hc_2024": 3197,
+    "hc_2039_mean": 2980,
+    "pct_change": -6.79,
+    "retirement_rate": 0.041,
+    "hiring_ratio": 0.95,
+    "decent_boost": 0.02,
+    "regression": {
+      "mae": 14.75,
+      "r2": 0.5698,
+      "cv_r2": -15.3243,
+      "coefficients": {
+        "cohort_hc": 32.0159,
+        "budget_index": 64.5073,
+        "year_trend": -49.9446
+      }
+    }
+  },
+  "F\u00e8s-Mekn\u00e8s": {
+    "hc_2005": 1285,
+    "hc_2024": 1207,
+    "hc_2039_mean": 1162,
+    "pct_change": -3.73,
+    "retirement_rate": 0.045,
+    "hiring_ratio": 1.02,
+    "decent_boost": 0.04,
+    "regression": {
+      "mae": 3.32,
+      "r2": 0.9762,
+      "cv_r2": -1.3039,
+      "coefficients": {
+        "cohort_hc": -4.1596,
+        "budget_index": -11.9404,
+        "year_trend": -17.1723
+      }
+    }
+  },
+  "Marrakech-Safi": {
+    "hc_2005": 1835,
+    "hc_2024": 1749,
+    "hc_2039_mean": 1667,
+    "pct_change": -4.69,
+    "retirement_rate": 0.043,
+    "hiring_ratio": 1.0,
+    "decent_boost": 0.03,
+    "regression": {
+      "mae": 14.87,
+      "r2": 0.7334,
+      "cv_r2": -47.8835,
+      "coefficients": {
+        "cohort_hc": -19.8785,
+        "budget_index": 59.6047,
+        "year_trend": -99.7815
+      }
+    }
+  },
+  "Souss-Massa": {
+    "hc_2005": 568,
+    "hc_2024": 540,
+    "hc_2039_mean": 528,
+    "pct_change": -2.22,
+    "retirement_rate": 0.048,
+    "hiring_ratio": 1.05,
+    "decent_boost": 0.05,
+    "regression": {
+      "mae": 0.93,
+      "r2": 0.9799,
+      "cv_r2": -0.2423,
+      "coefficients": {
+        "cohort_hc": 0.1572,
+        "budget_index": 1.3384,
+        "year_trend": -9.7156
+      }
+    }
+  }
+}

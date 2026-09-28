@@ -1,0 +1,92 @@
+{
+  "var_lag": 3,
+  "var_stable": true,
+  "var_aic": -12.4001,
+  "n_simulations": 1000,
+  "horizon_years": 15,
+  "ramp_years": 5,
+  "differencing": {
+    "occupancy": {
+      "d": 1,
+      "adf_pval": 0.4426
+    },
+    "workforce": {
+      "d": 1,
+      "adf_pval": 0.6995
+    },
+    "energy_cost": {
+      "d": 0,
+      "adf_pval": 0.0
+    }
+  },
+  "scenarios": {
+    "optimistic": {
+      "label": "Optimistic \u2014 workforce +20%",
+      "shocks": {
+        "occupancy": {
+          "mean": 1.08,
+          "std": 0.03
+        },
+        "workforce": {
+          "mean": 1.2,
+          "std": 0.05
+        },
+        "energy_cost": {
+          "mean": 1.05,
+          "std": 0.04
+        }
+      }
+    },
+    "austerity": {
+      "label": "Austerity \u2014 budget \u221210%",
+      "shocks": {
+        "occupancy": {
+          "mean": 0.93,
+          "std": 0.03
+        },
+        "workforce": {
+          "mean": 0.98,
+          "std": 0.03
+        },
+        "energy_cost": {
+          "mean": 0.9,
+          "std": 0.04
+        }
+      }
+    },
+    "climate_shock": {
+      "label": "Climate shock \u2014 energy +40%",
+      "shocks": {
+        "occupancy": {
+          "mean": 1.0,
+          "std": 0.03
+        },
+        "workforce": {
+          "mean": 1.01,
+          "std": 0.02
+        },
+        "energy_cost": {
+          "mean": 1.4,
+          "std": 0.08
+        }
+      }
+    },
+    "digitization": {
+      "label": "Digitization \u2014 space need \u221230%",
+      "shocks": {
+        "occupancy": {
+          "mean": 0.7,
+          "std": 0.06
+        },
+        "workforce": {
+          "mean": 0.95,
+          "std": 0.04
+        },
+        "energy_cost": {
+          "mean": 0.85,
+          "std": 0.05
+        }
+      }
+    }
+  }
+}

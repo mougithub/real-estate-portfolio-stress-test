@@ -1,0 +1,83 @@
+{
+  "perturbation_stability": {
+    "n_trials": 2000,
+    "n_changed": 1037,
+    "stability_pct": 48.1,
+    "pair_swaps": {
+      "Pool \u2194 Dispose": 720,
+      "Rent \u2194 Dispose": 236,
+      "Rehabilitate \u2194 Rent": 146,
+      "Pool \u2194 Rent": 117,
+      "Rehabilitate \u2194 Build": 7,
+      "Rehabilitate \u2194 Dispose": 4,
+      "Rehabilitate \u2194 Pool": 3
+    }
+  },
+  "score_gaps": [
+    {
+      "rank_above": "#1 Pool",
+      "rank_below": "#2 Dispose",
+      "score_above": 0.724,
+      "score_below": 0.71,
+      "gap": 0.014,
+      "status": "FRAGILE"
+    },
+    {
+      "rank_above": "#2 Dispose",
+      "rank_below": "#3 Rent",
+      "score_above": 0.71,
+      "score_below": 0.65,
+      "gap": 0.06,
+      "status": "stable"
+    },
+    {
+      "rank_above": "#3 Rent",
+      "rank_below": "#4 Rehabilitate",
+      "score_above": 0.65,
+      "score_below": 0.58,
+      "gap": 0.07,
+      "status": "stable"
+    },
+    {
+      "rank_above": "#4 Rehabilitate",
+      "rank_below": "#5 Build",
+      "score_above": 0.58,
+      "score_below": 0.451,
+      "gap": 0.129,
+      "status": "stable"
+    }
+  ],
+  "tipping_points": [
+    {
+      "dimension": "cost_efficiency",
+      "w_at_flip": 48,
+      "from_strategy": "Pool",
+      "to_strategy": "Dispose"
+    },
+    {
+      "dimension": "sustainability",
+      "w_at_flip": 0,
+      "from_strategy": "Pool",
+      "to_strategy": "Dispose"
+    },
+    {
+      "dimension": "sustainability",
+      "w_at_flip": 30,
+      "from_strategy": "Dispose",
+      "to_strategy": "Pool"
+    },
+    {
+      "dimension": "sustainability",
+      "w_at_flip": 60,
+      "from_strategy": "Pool",
+      "to_strategy": "Rehabilitate"
+    },
+    {
+      "dimension": "space_flexibility",
+      "w_at_flip": 42,
+      "from_strategy": "Pool",
+      "to_strategy": "Dispose"
+    }
+  ],
+  "cross_scenario_concordance": null
+}
